@@ -121,7 +121,7 @@ function PortfolioSection() {
                                     <p className='mt-4'>
                                         &emsp; Codehelper is project which is build for the purpose of making DSA easy. this project have it&apos;s own IDE which supports 10 differnt languages (c,c++,javascript,java etc), its have blog section where people can post their blogs etc.
                                     </p>
-                                    <p className='text-theme text-xl mt-4'>Visit!! <a ref="noreferrer" target="_blank" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel="noreferrer" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
                                 </div>
                             </div>
                         </Box>
