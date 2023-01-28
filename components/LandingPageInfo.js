@@ -103,8 +103,8 @@ function LandingPageInfo() {
             />
             <div style={{ position:"absolute", top:"50%", left: "50%",  transform: 'translate(-50%, -50%)', width: "100%"}}>
                 <div class='font-mono text-white'>
-                    <h1 class='select-none text-2xl z-20 font-bold text-center lg:text-4xl '>Hello, I'm <span class='text-theme'>Prajyot Burbure.</span></h1> 
-                    <p class="select-none text-center my-2 font-bold text-2xl lg:text-4xl">I'm a full-stack web developer</p>
+                    <h1 class='select-none text-2xl z-20 font-bold text-center lg:text-4xl '>Hello, I&apos;m <span class='text-theme'>Prajyot Burbure.</span></h1> 
+                    <p class="select-none text-center my-2 font-bold text-2xl lg:text-4xl">I&apos;m a full-stack web developer</p>
                     <div>
                         <a href='#jump'>
                             <button className="block mx-auto border-2 px-4 py-2 mt-2 transition ease-in-out bg-blue-500 hover:scale-110 hover:bg-theme hover:text-white hover:border-theme">View my work <br />
