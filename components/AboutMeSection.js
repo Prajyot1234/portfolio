@@ -32,7 +32,7 @@ function AboutMeSection() {
                         <p className='text-faint w-11/12 py-4 mx-auto lg:w-5/12'>I'm a Front-End Developer for <a target="_blank" className='text-theme' href='https://kloudspot.com/'>Kloudspot</a> in Bangalore, India.
                             I have serious passion for frontend Development(<span className='text-theme'> ReactJS | javascript | NextJS </span>) as well as backend Development(<span className='text-theme'> NodeJS</span>), 
                             creating intuitive, dynamic user experiences and competitive programing(<span className='text-theme'>cpp</span>).<br/>
-                            <a target="_blank" href='https://www.linkedin.com/in/prajyot-burbure-6b8643190/' ><span className='text-theme'>Hire Me!!</span></a>
+                            <a target="_blank"  rel="noreferrer" href='https://www.linkedin.com/in/prajyot-burbure-6b8643190/' ><span className='text-theme'>Hire Me!!</span></a>
                         </p>
                     </div>
                 </div>

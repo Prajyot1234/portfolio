@@ -61,7 +61,7 @@ function PortfolioSection() {
                             <button onClick={handleOpen1} className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>View Details</button>
                         </div>
                         <div className='ml-2'>
-                            <a target="_blank" href='https://final-year-project-zeta.vercel.app/' >
+                            <a target="_blank" rel="noreferrer"  href='https://final-year-project-zeta.vercel.app/' >
                                 <button className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>Visit website</button>
                             </a>
                         </div>
@@ -143,7 +143,7 @@ function PortfolioSection() {
                             <button onClick={handleOpen2} className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>View Details</button>
                         </div>
                         <div className='ml-2'>
-                            <a target="_blank" href="https://webchat-1g3o3voho-prajyot1234.vercel.app/">
+                            <a target="_blank" rel="noreferrer" href="https://webchat-1g3o3voho-prajyot1234.vercel.app/">
                                 <button className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>Visit website</button>
                             </a>
                         </div>
@@ -225,7 +225,7 @@ function PortfolioSection() {
                             <button onClick={handleOpen3} className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>View Details</button>
                         </div>
                         <div className='ml-2'>
-                            <a target="_blank" href="https://covid-info-607b0.web.app/">
+                            <a target="_blank" rel="noreferrer" href="https://covid-info-607b0.web.app/">
                                 <button className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>Visit website</button>
                             </a>
                         </div>
