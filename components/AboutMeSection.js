@@ -64,7 +64,7 @@ function AboutMeSection() {
                                 <RocketLaunchIcon />
                             </div>
                             <h2 className='text-xl mt-2 font-medium text-faint text-center'>Dynamic</h2>
-                            <p className='text-center mx-6 text-faint mt-2'>Websites/Webapps don't have to be static, I love making pages come to life.</p>
+                            <p className='text-center mx-6 text-faint mt-2'>Websites/Webapps don&apos;t have to be static, I love making pages come to life.</p>
                         </div>
                     </div>
                 </div>

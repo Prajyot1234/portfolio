@@ -121,7 +121,7 @@ function PortfolioSection() {
                                     <p className='mt-4'>
                                         &emsp; Codehelper is project which is build for the purpose of making DSA easy. this project have it&apos;s own IDE which supports 10 differnt languages (c,c++,javascript,java etc), its have blog section where people can post their blogs etc.
                                     </p>
-                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a ref="noreferrer" target="_blank" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
                                 </div>
                             </div>
                         </Box>
@@ -203,7 +203,7 @@ function PortfolioSection() {
                                     <p className='mt-4'>
                                         &emsp; Web-Chat is project which is build for the purpose of communicating with another person only with help of their gmail ID in this way we dont have to share any number and all.
                                     </p>
-                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" href="https://webchat-1g3o3voho-prajyot1234.vercel.app/" ><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel='noreferrer' href="https://webchat-1g3o3voho-prajyot1234.vercel.app/" ><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
                                 </div>
                             </div>
                         </Box>
@@ -285,7 +285,7 @@ function PortfolioSection() {
                                     <p className='mt-4'>
                                         &emsp; Covid-Info is project which is build to get the updates about COVID situation like daily new cases,deaths and recovered in graphical as we as in number format.
                                     </p>
-                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" href="https://covid-info-607b0.web.app/" ><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel='noreferrer' href="https://covid-info-607b0.web.app/" ><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
                                 </div>
                             </div>
                         </Box>
