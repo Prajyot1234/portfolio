@@ -74,21 +74,23 @@ function ContactMeSection() {
 
           <div className='mt-20 text-center'>
             <h1 className='text-3xl'>Prajyot<span className='text-theme'>.</span></h1>
-            <div className='mt-7 text-faint'>
-              <div className='flex mx-auto w-fit'>
-                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/prajyot_burbure/">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-white duration-1000'>instagram</h2>
-                </a>
+            <div className='mt-7 w-screen text-faint'>
+            <div className='mt-3 flex w-screen'>
+              <div className='flex justify-center mx-auto text-center'>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/prajyot-burbure-6b8643190/">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-white duration-1000 ml-8'>linkedin</h2>
+                  <h2 className='text-cente uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000'>linkedin</h2>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/Prajyot1234">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-white duration-1000 ml-8'>github</h2>
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>github</h2>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://leetcode.com/Prajyotb9/">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-white duration-1000 ml-8'>leetcode</h2>
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>leetcode</h2>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://instagram.com/_prajyot___?igshid=ZDdkNTZiNTM=">
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>instagram</h2>
                 </a>
               </div>
+            </div>
               <div className='mt-5'>
                 <p>Copyright © {year} All rights reserved | This website is made with <FavoriteIcon />  by <span className='text-white'>Prajyot</span><span className='text-theme'>.</span></p>
               </div>

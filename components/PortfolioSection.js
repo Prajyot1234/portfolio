@@ -32,6 +32,11 @@ function PortfolioSection() {
     const handleOpen3 = () => setOpen3(true);
     const handleClose3 = () => setOpen3(false);
 
+     //for ChatGPT
+     const [open4, setOpen4] = useState(false);
+     const handleOpen4 = () => setOpen4(true);
+     const handleClose4 = () => setOpen4(false);
+
 
   return (
     <div className='pt-20 font-mono bg-black'>
@@ -45,6 +50,88 @@ function PortfolioSection() {
         <div className='w-full bg-black'>
             <div className='w-full max-w-7xl mx-auto lg:w-11/12'>
               <div className='grid grid-cols-1 pt-20 pb-5 gap-10 lg:grid-cols-3'>
+              <div className='p-6 text-center rounded-md shadow-2xl border-2 m-2 '>
+                    <h1 className='uppercase text-2xl mb-4'>ChatGPT Clone</h1>
+                    <div className="w-full">
+                        <img 
+                            src={`/ChatGPT.png`}
+                            height={100}
+                            width={120}
+                            className="w-full hover:cursor-pointer"
+                            alt={`ChatGPT project landing`}
+                        />
+                    </div>
+                    <div className='flex justify-center mt-4'>
+                        <div>
+                            <button onClick={handleOpen4} className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>View Details</button>
+                        </div>
+                        <div className='ml-2'>
+                            <a target="_blank" rel="noreferrer"  href='https://chat-gpt-clone-c8sb.vercel.app/' >
+                                <button className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>Visit website</button>
+                            </a>
+                        </div>
+                    </div>
+                    <Modal
+                        open={open4}
+                        aria-labelledby="modal-modal-title"
+                        aria-describedby="modal-modal-description"
+                    >
+                        <Box className='text-white w-3/4 font-mono lg:w-96' sx={style}>
+                            <div className='flex justify-end'>
+                                <CloseIcon
+                                    onClick={handleClose4}
+                                    className='hover:cursor-pointer'
+                                />
+                            </div>
+                            <div className='text-center'>
+                                <div>
+                                    <h1 className='uppercase font-bold text-xl'>ChatGPT Clone</h1>
+
+                                    <table className='border-collapse border-white'>
+                                        <tr>
+                                            <td>
+                                            Frontend- 
+                                            </td>
+                                            <td>
+                                                <p className='p-2 '>
+                                                    NextJS , Tailwind CSS, material-UI, NextAuth etc.
+                                                </p>
+                                                <hr />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            Backend-
+                                            </td>
+                                            <td>
+                                                <p className='p-2'>
+                                                    Firebase, Firebase Admin, OPENAI tools
+                                                </p>
+                                                <hr />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            Database-
+                                            </td>
+                                            <td>
+                                                <p className='p-2'>
+                                                   firebase firestore.
+                                                </p>
+                                                <hr />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                        
+                                    <p className='mt-4'>
+                                        &emsp; ChatGPT-Clone is a clone of ChatGPT which basically helps us to answer processing your question and answer it after AI processing.
+                                    </p>
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel="noreferrer" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                </div>
+                            </div>
+                        </Box>
+                    </Modal>
+                </div>
                 <div className='p-6 text-center rounded-md shadow-2xl border-2 m-2 '>
                     <h1 className='uppercase text-2xl mb-4'>code-helper</h1>
                     <div className="w-full">

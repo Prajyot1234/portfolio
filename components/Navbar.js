@@ -22,7 +22,7 @@ function Navbar() {
                 <div class="cursor-pointer">
                     <MenuIcon onClick={OpenMenu} className='transition-all ease-in-out duration-500' />
                     {
-                        menu && (<div className="fixed bg-black border-slate-800 transition-all ease-out top-0 right-0 bottom-0 w-80 z-50 list-none p-5 flex flex-col text-start border-2 transition-transform duration-1000 lg:w-96">
+                        menu && (<div className="fixed bg-black border-slate-800 ease-out top-0 right-0 bottom-0 w-80 z-50 list-none p-5 flex flex-col text-start border-2 transition-transform duration-1000 lg:w-96">
                            
                             <li className="text-right p-3">
                                 <CloseIcon onClick={OpenMenu} />
