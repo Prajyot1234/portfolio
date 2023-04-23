@@ -78,16 +78,16 @@ function ContactMeSection() {
             <div className='mt-3 flex w-screen'>
               <div className='flex justify-center mx-auto text-center'>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/prajyot-burbure-6b8643190/">
-                  <h2 className='text-cente uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000'>linkedin</h2>
+                  <h2 className='text-cente uppercase cursor-pointer font-bold hover:text-[#51A9F1] duration-1000'>linkedin</h2>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://github.com/Prajyot1234">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>github</h2>
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-[#51A9F1] duration-1000 ml-2 lg:ml-8'>github</h2>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://leetcode.com/Prajyotb9/">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>leetcode</h2>
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-[#51A9F1] duration-1000 ml-2 lg:ml-8'>leetcode</h2>
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://instagram.com/_prajyot___?igshid=ZDdkNTZiNTM=">
-                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-chatGPT duration-1000 ml-2 lg:ml-8'>instagram</h2>
+                  <h2 className='text-center uppercase cursor-pointer font-bold hover:text-[#51A9F1] duration-1000 ml-2 lg:ml-8'>instagram</h2>
                 </a>
               </div>
             </div>
