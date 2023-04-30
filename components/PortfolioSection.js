@@ -148,7 +148,7 @@ function PortfolioSection() {
                             <button onClick={handleOpen1} className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>View Details</button>
                         </div>
                         <div className='ml-2'>
-                            <a target="_blank" rel="noreferrer"  href='https://final-year-project-zeta.vercel.app/' >
+                            <a target="_blank" rel="noreferrer"  href='https://final-year-project-rg4itngro-prajyot1234.vercel.app/' >
                                 <button className='border-2 uppercase border-white px-4 py-2 rounded-full hover:translate-y-2 duration-500 hover:font-sm'>Visit website</button>
                             </a>
                         </div>
@@ -208,7 +208,7 @@ function PortfolioSection() {
                                     <p className='mt-4'>
                                         &emsp; Codehelper is project which is build for the purpose of making DSA easy. this project have it&apos;s own IDE which supports 10 differnt languages (c,c++,javascript,java etc), its have blog section where people can post their blogs etc.
                                     </p>
-                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel="noreferrer" href='https://final-year-project-zeta.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
+                                    <p className='text-theme text-xl mt-4'>Visit!! <a target="_blank" rel="noreferrer" href='https://final-year-project-rg4itngro-prajyot1234.vercel.app/'><LaunchIcon className='hover:cursor-pointer' sx={{ fontSize: '13px' }} /></a></p>                                  
                                 </div>
                             </div>
                         </Box>
