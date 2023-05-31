@@ -15,6 +15,10 @@ function ContactMeSection() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    if(name=='' || email=='' || message==''){
+      alert.error('fill all the feilds correctly');
+      return;
+    }
     console.log(emailform.current);
     emailjs.sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID, 
