@@ -79,7 +79,7 @@ function ResumeSection() {
                     <div className='flex mx-3 justify-between  lg:mx-10'>
                         <div>
                           <div>
-                            <h1 className='text-xl'>Batchelor in Information Technology</h1>
+                            <h1 className='text-xl'>Bachelor in Information Technology</h1>
                             <div className='flex mt-1'>
                                 <div className='flex'>
                                   <SchoolIcon className='text-white text-lg lg:text-2xl' /><p className='ml-1'>SGBAU University.</p>
